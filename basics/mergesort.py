@@ -10,6 +10,10 @@ def debug_print(debug_msg=None, **kwargs):
 
 def mergesort(array):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    debug_print(array=array)
+>>>>>>> dd8c56c (Merge-sort)
 =======
     debug_print(array=array)
 >>>>>>> dd8c56c (Merge-sort)
@@ -18,6 +22,10 @@ def mergesort(array):
 
     m = len(array) // 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    debug_print(m=m)
+>>>>>>> dd8c56c (Merge-sort)
 =======
     debug_print(m=m)
 >>>>>>> dd8c56c (Merge-sort)
@@ -30,6 +38,11 @@ def mergesort(array):
 
 def merge(left, right):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    debug_print(debug_msg="Merging...", left=left, right=right)
+
+>>>>>>> dd8c56c (Merge-sort)
 =======
     debug_print(debug_msg="Merging...", left=left, right=right)
 
@@ -48,6 +61,10 @@ def merge(left, right):
         merged += right
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    debug_print(merged=merged)
+>>>>>>> dd8c56c (Merge-sort)
 =======
     debug_print(merged=merged)
 >>>>>>> dd8c56c (Merge-sort)
@@ -69,6 +86,9 @@ if __name__ == "__main__":
 =======
     debug_print(value_list=value_list)
 
+<<<<<<< HEAD
+>>>>>>> dd8c56c (Merge-sort)
+=======
 >>>>>>> dd8c56c (Merge-sort)
     sorted_list = mergesort(value_list)
     print(sorted_list)
